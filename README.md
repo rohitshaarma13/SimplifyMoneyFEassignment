@@ -51,6 +51,13 @@ frontend-assignment/
    npx expo start
 
 ## 📸 Screenshots (Optional)
+   ![App Screenshot](MainScreen.jpeg)
+   ![App Screenshot](GoldDetails.jpeg)
+   ![App Screenshot](SilverDetails.jpeg)
+   ![App Screenshot](PlatinumDetails.jpeg)
+   ![App Screenshot](PalladiumDetails.jpeg)
+   
+
 
 ---
 
