@@ -1,4 +1,4 @@
-# 📱 Gold Price Tracker (React Native - Frontend Assignment)
+# 📱 SimplifyMoney (React Native - Frontend Assignment)
 
 A React Native (Expo) application that fetches live gold prices using the **GoldAPI** and displays them in a clean UI.  
 The project demonstrates API integration, environment variable handling, and React Native development best practices.
