@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+.expo-shared/
+
+# build artifacts
+android/
+ios/
+
+# env files
+.env
