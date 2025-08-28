@@ -41,9 +41,6 @@ frontend-assignment/
 
 2. **Installation Dependencies**
    npm install
-   # or
-   yarn install
-   
 3. **Create a .env file in the project root:**
    GOLDAPI_KEY=your_api_key_here
 
