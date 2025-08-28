@@ -23,8 +23,40 @@ The project demonstrates API integration, environment variable handling, and Rea
 
 ## 📂 Project Structure
 frontend-assignment/
-│-- .env # API Key (not committed)
-│-- App.js # Main entry point
-│-- babel.config.js # Babel config with dotenv plugin
-│-- package.json # Dependencies
-│-- README.md # Project documentation
+- .env # API Key (not committed)
+- App.js # Main entry point
+- babel.config.js # Babel config with dotenv plugin
+- package.json # Dependencies
+- README.md # Project documentation
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/frontend-assignment.git
+   cd frontend-assignment
+
+2. **Installation Dependencies**
+   npm install
+   # or
+   yarn install
+   
+3. **Create a .env file in the project root:**
+   GOLDAPI_KEY=your_api_key_here
+
+4. **Run the app**
+   npx expo start
+
+## 📸 Screenshots (Optional)
+
+---
+
+## 🙌 Acknowledgements
+- [GoldAPI](https://www.goldapi.io/) for providing real-time gold price data.
+- [React Native](https://reactnative.dev/) & [Expo](https://expo.dev/) for development framework and tools.
+
+
+
