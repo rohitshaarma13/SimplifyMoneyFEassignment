@@ -1,6 +1,6 @@
 import axios from 'axios';
 import Constants from 'expo-constants';
-import { API_KEY } from "@env";
+// import { API_KEY } from "@env";
 
 const USE_MOCK = true;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -25,7 +25,7 @@ export async function fetchMetal(symbol) {
   const apiKey = Constants?.expoConfig?.extra?.GOLDAPI_KEY;
   const url = `https://www.goldapi.io/api/XAU/INR/20250827`;
   const { data } = await axios.get(url, {
-    headers: { 'x-access-token': API_KEY, 'Content-Type': 'application/json' },
+    headers: { 'x-access-token': 'your api key', 'Content-Type': 'application/json' },
   });
 
   const price = data?.price_gram_24k ?? data?.price_gram_999 ?? data?.price ?? data?.price_gram_22k ?? null;
