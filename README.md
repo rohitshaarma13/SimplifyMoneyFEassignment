@@ -47,7 +47,7 @@ frontend-assignment/
 4. **Run the app**
    npx expo start
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots
    ![App Screenshot](MainScreen.jpeg)
    ![App Screenshot](GoldDetails.jpeg)
    ![App Screenshot](SilverDetails.jpeg)
